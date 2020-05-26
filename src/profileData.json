@@ -1,0 +1,74 @@
+{
+    "landing": {
+        "firstName":"Jackson Thapelo ",
+        "lastName": "Moji",
+        "phoneNumber": "+27838819463",
+        "bio": "Young professional currently pursuing MSc in Computer Science and working as a Software Engineer. Hands-on experience spanning more than 3 years developing software for various companies offering services to clients in Health staffing and recruiting, Insurance, and Commerce. Always eager to learn new Technologies and find interesting ways of solving problems. Currently learning AWS solutions architect - associate level to gain another skill set under my belt.",
+        "email": "jacksonmoji@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/jackson-thapelo-moji-5515167a/",
+        "github": "https://github.com/jacksonmoji"
+    },
+    "experience": [
+        {
+            "position": "Software Engineer",
+            "organization": "A24 Group",
+            "aboutWork": "Working on a legacy enterprise system for recruitment processes in the health industry. We are currently maintaining the a24group enterprise system which will be phased out over-time implementing new and up to date technologies using Node.js, React.js, and MongoDB from PHP and relational databases (MySQL, MSSQL ).",
+            "fromDate": "10/2019",
+            "toDate": "Present"
+        },
+        {
+            "position": "Sofware Engineer | Business Process Engineer",
+            "organization": "Thought Express",
+            "aboutWork": "Successfully finished leading data migration/conversion from client's Oracle DBMS to Thought Express's System. Delivering the milestones before the deadlines. We believe in under-promising and over-delivering. Below are the activities performed in my role: Lead the business requirements analysis, design, development and quality assurance of technical/business solutions. Reviewed and re-designed existing processes to provide faster and more effective solutions. Engaged with clients in understanding the particular business needs/problems they needed to solve in relation to their business processes. Combined analytical thinking with process understanding to meet and solve problems. Collaborated internally with the project team to design and build the proposed business process solution. Worked individually towards my own deadlines while simultaneously engaging with the team in achieving collective goals and deadlines.",
+            "fromDate": "01/2019",
+            "toDate": "11/2019"
+        },
+        {
+            "position": "Web Developer",
+            "organization": "SQLi",
+            "aboutWork": "Developed extensions and applications in PHP Developed integrations from 3rd party systems into our systems Performed code reviews and design reviews from team members Provided input regarding new web technologies Performed Troubleshooting and fixed problems Reviewed and participated in testing Worked with customer service to correct issues identified by users",
+            "fromDate": "06/2018",
+            "toDate": "01/2019"
+        },
+        {
+            "position": "Junior Web Developer | IT Support Engineer",
+            "organization": "Open Software",
+            "aboutWork": "Assisted team with debugging / development of bug fixes day-to-day maintenance. Developed new features under the guidance of more senior team members. Functioned as “project owner” for some new or existing projects, managing initial requirements, feature requests, and long-term support. Wrote maintainable and extensible code in a team environment. Consulted regularly with customers on project status, proposals and technical issues. Rapidly performed prototyping new capabilities to confirm feasibility.",
+            "fromDate": "06/2015",
+            "toDate": "03/2017"
+        }
+    ],
+    "education": [{
+            "university": "University Sunderland",
+            "degree": "Computer Systems Engineering",
+            "gpa": "2:1",
+            "fromDate": "09/2011",
+            "toDate": "07/2015"
+        },
+        {
+            "university": "University of Cape Town",
+            "degree": "MSc Computer Science",
+            "gpa": "-",
+            "fromDate": "03/2018",
+            "toDate": "Present"
+        }
+    ],
+    "skills": [{
+            "name": "skill1"
+        },
+        {
+            "name": "skill2"
+        }
+    ],
+    "interests": {
+        "paragraphOne": "Descriptive detail about your interests for paragraph one",
+        "paragraphTwo": "Descriptive detail about your interests for paragraph two"
+    },
+    "awards": [{
+            "awardDetail": "Your first award"
+        },
+        {
+            "awardDetail": "Your second award"
+        }
+    ]
+}
