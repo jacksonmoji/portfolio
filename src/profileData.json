@@ -54,10 +54,13 @@
         }
     ],
     "skills": [{
-            "name": "skill1"
+            "type": "Languages"
         },
         {
-            "name": "skill2"
+            "type": "Tools"
+        },
+        {
+            "type": ""
         }
     ],
     "interests": {
