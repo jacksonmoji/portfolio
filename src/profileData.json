@@ -63,15 +63,24 @@
             "type": ""
         }
     ],
-    "interests": {
-        "paragraphOne": "Descriptive detail about your interests for paragraph one",
-        "paragraphTwo": "Descriptive detail about your interests for paragraph two"
+    "portfolio": {
+        "paragraphOne": "Descriptive detail about your portfolio for paragraph one",
+        "paragraphTwo": "Descriptive detail about your portfolio for paragraph two"
     },
     "awards": [{
-            "awardDetail": "Your first award"
+            "awardDetail": "Cryptocurrency Foundations"
         },
         {
-            "awardDetail": "Your second award"
+            "awardDetail": "Ethereum: Building Blockchain Decentralized Apps (DApps)"
+        },
+        {
+            "awardDetail": "Blockchain: Beyond the Basics"
+        },
+        {
+            "awardDetail": "Google Africa Scholarship Mobile Web Specialist"
+        },
+        {
+            "awardDetail": "Microsoft MTA Developer Track"
         }
     ]
 }

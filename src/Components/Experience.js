@@ -1,5 +1,18 @@
 import React, { Component } from 'react';
-
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faAws,faAngular,faJs,faPython,faCss3,faHtml5,
+//          faReact,faLinux,faGithub,faLaravel,
+//          faMagento,
+//          faPhp,
+//          faJava,
+//          faAtlassian,
+//          faGitAlt,
+//          faNpm,
+//          faYarn,
+//          faNode,
+//          faBootstrap,
+//          faSlack
+// } from "@fortawesome/free-brands-svg-icons";
 class Experience extends Component {
   constructor(props) {
     super(props);
