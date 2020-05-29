@@ -6,7 +6,8 @@
         "bio": "Young professional currently pursuing MSc in Computer Science and working as a Software Engineer. Hands-on experience spanning more than 3 years developing software for various companies offering services to clients in Health staffing and recruiting, Insurance, and Commerce. Always eager to learn new Technologies and find interesting ways of solving problems. Currently learning AWS solutions architect - associate level to gain another skill set under my belt.",
         "email": "jacksonmoji@gmail.com",
         "linkedin": "https://www.linkedin.com/in/jackson-thapelo-moji-5515167a/",
-        "github": "https://github.com/jacksonmoji"
+        "github": "https://github.com/jacksonmoji",
+        "twitter": "https://twitter.com/jacksonmoji"
     },
     "experience": [
         {
@@ -75,6 +76,9 @@
         },
         {
             "awardDetail": "Blockchain: Beyond the Basics"
+        },
+        {
+            "awardDetail": "Google Africa Scholarship Mobile Web Specialist"
         },
         {
             "awardDetail": "Google Africa Scholarship Mobile Web Specialist"

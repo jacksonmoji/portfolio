@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import image from '../assets/profile_.jpg'
 
 class Landing extends Component {
   constructor(props) {
@@ -11,22 +10,18 @@ class Landing extends Component {
   render() {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-        <div className="w-100">
+        <div className="w-50">
           <h2 className="mb-0">{this.landingData.firstName}
             <span className="text-primary">{this.landingData.lastName}</span>
           </h2>
-          <div className="subheading mb-5">{this.landingData.phoneNumber} ·
+          {/* <div className="subheading mb-5">
             <a href="mailto:name@email.com">{this.landingData.email}</a>
-          </div>
+          </div> */}
           <p className="lead mb-5">{this.landingData.bio}</p>
-          <div className="social-icons">
-            <a href={this.landingData.linkedin}>
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href={this.landingData.github}>
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </div>
+
+        </div>
+        <div className="w-50">
+          <img className="img-fluid img-profile rounded-circle mx-auto" src={image} alt=""></img>
         </div>
       </section>
     );

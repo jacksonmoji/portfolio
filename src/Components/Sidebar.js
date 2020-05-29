@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import image from '../assets/profile.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 class Sidebar extends Component {
   constructor(props) {
@@ -42,6 +45,28 @@ class Sidebar extends Component {
             </li>
           </ul>
         </div>
+        <ul className="list-inline">
+          <li className="list-inline-item">  
+            <a href={this.sidebarData.linkedin}>
+                <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          <li className="list-inline-item">  
+            <a href={this.sidebarData.github}>
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </li>
+          <li className="list-inline-item">  
+            <a href={this.sidebarData.twitter}>
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </li>
+          <li className="list-inline-item">  
+            <a href="mailto:jacksonmoji@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+          </li>
+        </ul>
       </nav>
     );
   }
