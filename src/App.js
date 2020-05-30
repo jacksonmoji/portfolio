@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import Loader from "./Components/Loader";
 import Sidebar from './Components/Sidebar';
 import Landing from './Components/Landing';
 import Experience from './Components/Experience';
@@ -13,6 +14,7 @@ class App extends Component {
     super(props);
 
     this.state = {
+      loading: true,
       landingData : profileData.landing,
       experience : profileData.experience,
       education : profileData.education,
@@ -21,7 +23,24 @@ class App extends Component {
       awards : profileData.awards
     }
   }
+  // sleep = milliseconds => {
+  //   return new Promise(resolve => setTimeout(resolve, milliseconds));
+  // };
+  // wait = async (milliseconds = 2000) => {
+  //   await this.sleep(milliseconds);
+  //   this.setState({
+  //     loading: false
+  //   });
+  // };
+
+  // componentDidMount() {
+  //   this.wait(2000);
+  //   // this.fetchGitHub();
+  // }
+
   render() {
+    // if (this.state.loading) return<Loader/>
+    
     return (
       <div className="App">
         <Sidebar sidebarData={this.state.landingData} />
