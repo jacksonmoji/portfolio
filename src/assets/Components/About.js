@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pro_pic_1 from '../assets/img/profile-pic3.png';
+import pro_pic_1 from '../img/profile-pic3.png';
 import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 class About extends Component {

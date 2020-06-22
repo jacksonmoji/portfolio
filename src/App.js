@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 // import Loader from "./Components/Loader";
-import About from './Components/About';
-import Navigation from './Components/Navigation';
-import Landing from './Components/Landing';
-import Experience from './Components/Experience';
-import Education from './Components/Education';
-import Skills from './Components/Skills';
-import Portfolio from './Components/Portfolio';
-import Awards from './Components/Awards';
-import Footer from './Components/Footer';
+import About from './assets/Components/About';
+import Navigation from './assets/Components/Navigation';
+import Landing from './assets/Components/Landing';
+import Experience from './assets/Components/Experience';
+import Education from './assets/Components/Education';
+import Skills from './assets/Components/Skills';
+import Portfolio from './assets/Components/Portfolio';
+import Awards from './assets/Components/Awards';
+import Footer from './assets/Components/Footer';
 import profileData from './profileData.json';
+import './App.css';
+
+
 
 class App extends Component {
   constructor(props) {

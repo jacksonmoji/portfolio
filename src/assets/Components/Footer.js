@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo_1 from '../assets/img/logo/logo_1.png';
+import logo_1 from '../img/logo/logo_1.png';
 import { FaLinkedin, FaGithub, FaEnvelope, FaTwitter } from 'react-icons/fa';
 
 class Footer extends Component {

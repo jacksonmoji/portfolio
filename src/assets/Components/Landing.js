@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo_1 from '../assets/img/logo/logo_1.png';
+import logo_1 from '../img/logo/logo_1.png';
 
 
 class Landing extends Component {

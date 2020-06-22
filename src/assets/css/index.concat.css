@@ -2,14 +2,13 @@
 
 @font-face {
   font-family: "linea-basic-10";
-  src:url("fonts/linea-basic-10.eot");
-  src:url("fonts/linea-basic-10.eot?#iefix") format("embedded-opentype"),
-    url("fonts/linea-basic-10.woff") format("woff"),
-    url("fonts/linea-basic-10.ttf") format("truetype"),
-    url("fonts/linea-basic-10.svg#linea-basic-10") format("svg");
+  src:url("./assets/css/fonts/linea-basic-10.eot");
+  src:url("./assets/css/fonts/linea-basic-10.eot?#iefix") format("embedded-opentype"),
+    url("./assets/css/fonts/linea-basic-10.woff") format("woff"),
+    url("./assets/css/fonts/linea-basic-10.ttf") format("truetype"),
+    url("./assets/css/fonts/linea-basic-10.svg#linea-basic-10") format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 [data-icon]:before {
@@ -997,7 +996,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(../../img/bg-7.png);
+  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(./assets/img/bg-7.png);
   background-size: cover;
   /* makes sure that the background image is responsive to window size changes */
   background-position: bottom;
@@ -1197,7 +1196,7 @@ body {
 
 .section-tools {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(../../img/bg-5.png);
+  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(./assets/img/bg-5.png);
   background-size: cover;
   /* makes sure that the background image is responsive to window size changes */
   z-index: 20; }
