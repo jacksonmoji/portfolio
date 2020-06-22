@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 // import Loader from "./Components/Loader";
-import Sidebar from './Components/Sidebar';
+import About from './Components/About';
+import Navigation from './Components/Navigation';
 import Landing from './Components/Landing';
 import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Skills from './Components/Skills';
 import Portfolio from './Components/Portfolio';
 import Awards from './Components/Awards';
+import Footer from './Components/Footer';
 import profileData from './profileData.json';
 
 class App extends Component {
@@ -43,7 +45,7 @@ class App extends Component {
     
     return (
       <div className="App">
-        <Sidebar sidebarData={this.state.landingData} />
+        <Navigation NavigationData={this.state.landingData} />
         <div className="container-fluid p-0">
           <Landing landingData={this.state.landingData} />
           <hr className="m-0" />

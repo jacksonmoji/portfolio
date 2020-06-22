@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -17,13 +17,24 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "start": "^5.1.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "react-icons": "^3.10.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "watch:sass": "node-sass sass/main.scss css/index.css -w",
+    "start-dev-app": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "CI= react-scripts buildbuild",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "npm-run-all --parallel start-dev-app watch:sass",
+    "compile:sass": "node-sass sass/main.scss css/index.comp.css",
+    "concat:css": "concat -o css/index.concat.css css/icon-styles.css css/index.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/index.concat.css -o css/index.prefix.css",
+    "compress:css": "node-sass css/index.prefix.css css/index.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass concat:css prefix:css compress:css",
+    "productionbuild": "npm-run-all compile:sass concat:css prefix:css compress:css build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -39,5 +50,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.1",
+    "concat": "^1.0.3",
+    "gh-pages": "^3.0.0",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
   }
 }

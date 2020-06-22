@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import image from '../assets/profile_.jpg'
+import logo_1 from './img/logo/logo_1.png';
+
 
 class Landing extends Component {
   constructor(props) {
@@ -9,21 +10,21 @@ class Landing extends Component {
   }
   render() {
     return (
-      <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-        <div className="w-50">
-          <h2 className="mb-0">{this.landingData.firstName}
-            <span className="text-primary">{this.landingData.lastName}</span>
-          </h2>
-          {/* <div className="subheading mb-5">
-            <a href="mailto:name@email.com">{this.landingData.email}</a>
-          </div> */}
-          <p className="lead mb-5">{this.landingData.bio}</p>
+      <div className="header">
+        <div className="header__logo-box">
+          <img srcset={logo_1} alt="logo" className="header__logo" />
+        </div>
+        <div className="header__text-box">
+          <h1 className="heading-primary"> 
+            <span className="heading-primary--main">Hi, I'm Jackson</span>
+            <span className="heading-primary--sub">I develop software</span>
+          </h1>
+
+          <a href="#projects" className="btn btn__bicolor--antiquewhite btn--animated">  Resume </a>
+          <a href="#projects" className="btn btn__bicolor--dark btn--animated"> My Work </a>
 
         </div>
-        <div className="w-50">
-          <img className="img-fluid img-profile rounded-circle mx-auto" src={image} alt=""></img>
-        </div>
-      </section>
+      </div>
     );
   }
 }

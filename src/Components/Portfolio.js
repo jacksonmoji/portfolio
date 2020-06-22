@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-// import image from '../assets/profiled.jpg';
-import '../App.scss'
+import project_p1 from './img/bantuweb-add-translation.png';
+import { FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
+
 class Portfolio extends Component {
   constructor(props) {
     super(props);
@@ -10,81 +12,34 @@ class Portfolio extends Component {
 
   render() {
     return(
-      <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="portfolio">
-        
-        <div className="w-100">
-        <h2 className="mb-0">Portfolio</h2>
-            {/* effect #2*/}
-            <div className="content-block__effect">
-          
-              <div className="portfolio-effect">
-                {/* portfolio item */}
-                <div className="portfolio-item portfolio-effect__item portfolio-item--eff2">
-                  <img className="portfolio-item__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/694606/eff-5.jpg" alt="Portfolio Item" width={826} height={551} />
-                  <div className="portfolio-item__info">
-                    <h3 className="portfolio-item__header">Web Development</h3>
-                    <div className="portfolio-item__links">
-                      <div className="portfolio-item__link-block">
-                        <a className="portfolio-item__link" href="#" title="Link Title">
-                          <i className="material-icons">link</i>
-                        </a>
-                      </div>
-                      <div className="portfolio-item__link-block">
-                        <a className="portfolio-item__link" href="#" title="Link Title">
-                          <i className="material-icons">search</i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* portfolio item */}
-                <div className="portfolio-item portfolio-effect__item portfolio-item--eff2">
-                  <img className="portfolio-item__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/694606/eff-8.jpg" alt="Portfolio Item" width={826} height={551} />
-                  <div className="portfolio-item__info">
-                    <h3 className="portfolio-item__header">Web Development</h3>
-                    <div className="portfolio-item__links">
-                      <div className="portfolio-item__link-block">
-                        <a className="portfolio-item__link" href="#" title="Link Title">
-                          <i className="material-icons">link</i>
-                        </a>
-                      </div>
-                      <div className="portfolio-item__link-block">
-                        <a className="portfolio-item__link" href="#" title="Link Title">
-                          <i className="material-icons">search</i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* portfolio item */}
-                <div className="portfolio-item portfolio-effect__item portfolio-item--eff2">
-                  <img className="portfolio-item__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/694606/eff-10.jpg" alt="Portfolio Item" width={826} height={551} />
-                  <div className="portfolio-item__info">
-                    <h3 className="portfolio-item__header">Web Development</h3>
-                    <div className="portfolio-item__links">
-                      <div className="portfolio-item__link-block">
-                        <a className="portfolio-item__link" href="#" title="Link Title">
-                          <i className="material-icons">link</i>
-                        </a>
-                      </div>
-                      <div className="portfolio-item__link-block">
-                        <a className="portfolio-item__link" href="#" title="Link Title">
-                          <i className="material-icons">search</i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+      <section className="section-projects" id="projects">
+        <div className="u-center-text u-margin-bottom-big">
+          <h2 className="heading-secondary">
+            Projects
+          </h2>
+        </div>
+        <div className="row">
+          <div className="col-2-of-4">
+            <div className="file">
+              <div className="file__side file__side--front">
+                <img src={project_p1} ></img>
+              </div>
+              <div className="file__side file__side--back file__side--back-1">
+                <a href="http://ec2-52-87-247-222.compute-1.amazonaws.com/" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
+                <a href="#" className="btn btn--dark btn--animated"><FaGithub /> </a>
               </div>
             </div>
           </div>
-    
-
-      {/* </div> */}
-          {/* <h2 className="mb-5">portfolio</h2>
-          <p>{this.portfolio.paragraphOne}</p>
-          <p className="mb-0">{this.portfolio.paragraphTwo}</p> */}
-        
+          <div className="col-2-of-4">
+          <h3 className="heading-tertiary u-margin-bottom-small">BantuWeb MSc Project</h3>    
+            <p className="paragraph"> 
+              This is a deliverable from my MSc Computer Science research. Essentially, Bantuweb is a document discovery and crowd-sourcing platform, of which I developed in efforts to translate articles extracted from Wikipedia to indigenous South Africa languages. This is done with participants' help. Also, I incorporated gratification as a means to motivate participants to contribute and engage more in BantuWeb. Other ways to contribute in the platform is by writing blogs/stories and uploading digital documents written in any of the indigenous South African languages.
+            </p>
+            <p className="skills__big">
+              <DiAws /> <FaPython /> <DiPostgresql /> <DiDjango /> <FaJs /> <FaAngular /> <FaBootstrap />
+            </p>
+          </div>
+        </div>
       </section>
     );
   }
