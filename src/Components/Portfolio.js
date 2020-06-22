@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import project_p1 from './img/bantuweb-add-translation.png';
+import project_p1 from '../assets/img/bantuweb-add-translation.png';
 import { FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 

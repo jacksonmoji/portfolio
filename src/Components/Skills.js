@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import badge_1 from './img/front-end.png';
-import badge_2 from './img/back-end.png';
-import badge_3 from './img/tools.png';
+import badge_1 from '../assets/img/front-end.png';
+import badge_2 from '../assets/img/back-end.png';
+import badge_3 from '../assets/img/tools.png';
 
 class Skills extends Component {
   constructor(props) {
