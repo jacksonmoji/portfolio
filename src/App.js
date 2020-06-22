@@ -46,19 +46,23 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation NavigationData={this.state.landingData} />
-        <div className="container-fluid p-0">
-          <Landing landingData={this.state.landingData} />
-          <hr className="m-0" />
-          <Experience experience={this.state.experience} />
-          <hr className="m-0" />
+
+        <Landing landingData={this.state.landingData} />
+
+        <main>
+          <About education={this.state.education}/>
+          
           <Education education={this.state.education}/>
-          <hr className="m-0" />
+
+          <Experience experience={this.state.experience} />
+         
           <Skills skills={this.state.skills} />
-          <hr className="m-0" />
+         
           <Portfolio portfolio={this.state.portfolio} />
-          <hr className="m-0" />
-          <Awards awards={this.state.awards} />
-        </div>
+        
+        </main>
+
+        <Footer awards={this.state.awards} />
       </div>
     );
   }

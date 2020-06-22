@@ -23,7 +23,7 @@ class About extends Component {
             <div className="col-1-of-2">
                 <div className="composition">
             
-                <img className="composition__photo composition__photo--p1" src={pro_pic_1}/>  
+                <img className="composition__photo composition__photo--p1" src={pro_pic_1} alt="profile"/>  
                 
                 </div>
                 <div className="composition__social">
