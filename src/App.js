@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Loader from "./Components/Loader";
+import Loader from "./assets/Components/Loader";
 import About from './assets/Components/About';
 import Navigation from './assets/Components/Navigation';
 import Landing from './assets/Components/Landing';
@@ -39,12 +39,12 @@ class App extends Component {
   };
 
   componentDidMount() {
-    this.wait(2000);
+    this.wait(2500);
     // this.fetchGitHub();
   }
 
   render() {
-    if (this.state.loading) return<Loader/>
+    if (this.state.loading) return <Loader /> 
     
     return (
       <div className="App">

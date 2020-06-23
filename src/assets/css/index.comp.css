@@ -582,7 +582,7 @@ body {
   height: 7rem;
   width: 7rem;
   position: fixed;
-  top: 6rem;
+  top: 5rem;
   right: 6rem;
   border-radius: 10%;
   z-index: 2000;
@@ -591,7 +591,7 @@ body {
   cursor: pointer; }
   @media only screen and (max-width: 56.25em) {
     .navigation__button {
-      top: 4rem;
+      top: 3rem;
       right: 4rem; } }
   @media only screen and (max-width: 37.5em) {
     .navigation__button {
