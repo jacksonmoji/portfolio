@@ -72,12 +72,12 @@ class Skills extends Component {
               </p>
             
             </div>
-            <div className="badge badge--p1 badge--p1--floating"><img src={badge_1} /></div>
+            <div className="badge badge--p1 badge--p1--floating"><img src={badge_1} alt="badge1" /></div>
           </div>
 
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
-              <div className="badge badge--p2"><img src={badge_2} /></div>
+              <div className="badge badge--p2"><img src={badge_2}  alt="badge2" /></div>
               <i className="tool-box__icon icon-basic-settings"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Back End </h3>    
               <p className="tool-box__text">
@@ -170,7 +170,7 @@ class Skills extends Component {
 
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
-              <div className="badge badge--p3"><img src={badge_3} /></div>
+              <div className="badge badge--p3"><img src={badge_3} alt="badge3" /></div>
               <i className="tool-box__icon icon-basic-gear"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Tools </h3>    
               <p className="tool-box__text">

@@ -7,7 +7,7 @@ import Experience from './assets/Components/Experience';
 import Education from './assets/Components/Education';
 import Skills from './assets/Components/Skills';
 import Portfolio from './assets/Components/Portfolio';
-import Awards from './assets/Components/Awards';
+// import Awards from './assets/Components/Awards';
 import Footer from './assets/Components/Footer';
 import profileData from './profileData.json';
 import './App.css';

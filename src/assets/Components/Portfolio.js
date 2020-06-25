@@ -22,7 +22,7 @@ class Portfolio extends Component {
           <div className="col-2-of-4">
             <div className="file">
               <div className="file__side file__side--front">
-                <img src={project_p1} ></img>
+                <img src={project_p1} alt="bantuweb"></img>
               </div>
               <div className="file__side file__side--back file__side--back-1">
                 <a href="http://ec2-52-87-247-222.compute-1.amazonaws.com/" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
