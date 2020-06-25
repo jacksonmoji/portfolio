@@ -21,7 +21,12 @@ class Experience extends Component {
               <h1>A24 GROUP</h1>
               <h2>SOFWARE ENGINEER</h2>
               <h3>10/2019 - Present</h3>
-              <p className="paragraph">Working on a legacy enterprise system for recruitment processes in the health industry. We are currently maintaining the a24group enterprise system which will be phased out over-time implementing new and up to date technologies using Node.js, React.js, and MongoDB from PHP and relational databases (MySQL, MSSQL ).</p>
+              <p className="paragraph">
+              Working on a legacy enterprise system for recruitment processes in the health
+industry. We are currently maintaining the system which will be phased out
+over-time to implement new and up to date technologies using Node.js, React.js,
+and MongoDB from PHP and relational databases ( MySQL, MSSQL ).
+              </p>
             </div>
           </div>
           <div class="timeline__container timeline__container--right">
