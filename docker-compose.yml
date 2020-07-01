@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+    portfolio: 
+        container_name: backend
+        #image: node:10.19.0
+        build: ./
+        command: npm start-app
+        working_dir: /usr/src/react/portfolio
+        ports: 
+            - "3000:3000"
+        volumes: 
+            - ./:/usr/src/react/portfolio
