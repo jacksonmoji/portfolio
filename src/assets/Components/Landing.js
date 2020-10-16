@@ -20,7 +20,7 @@ class Landing extends Component {
             <span className="heading-primary--sub">I develop software</span>
           </h1>
 
-          <a href="https://github.com/jacksonmoji/Jackson-Mojis-Resume/raw/master/Jackson_Mojis_Resume.pdf" className="btn btn__bicolor--antiquewhite btn--animated">  Resume </a>
+          <a href="https://github.com/jacksonmoji/Jackson-Mojis-Resume/raw/overleaf-2020-06-25-0047/Jackson_Mojis_Resume.pdf" className="btn btn__bicolor--antiquewhite btn--animated">  Resume </a>
           <a href="#projects" className="btn btn__bicolor--dark btn--animated"> My Work </a>
 
         </div>
