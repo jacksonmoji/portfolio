@@ -9,6 +9,11 @@ class Portfolio extends Component {
     super(props);
 
     this.portfolio = props.portfolio;
+    this.privateRepo =  this.handleClick.bind(this);
+  }
+
+  privateRepo () {
+    alert('Please request access from Jackson to view the source code.');
   }
 
   render() {
@@ -27,7 +32,7 @@ class Portfolio extends Component {
               </div>
               <div className="file__side file__side--back file__side--back-1">
                 <a href="http://bit.ly/bantuweb" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
-                <a href="#" className="btn btn--dark btn--animated"><FaGithub /> </a>
+                <a href="#" className="btn btn--dark btn--animated" onclick={this.privateRepo}><FaGithub /> </a>
               </div>
             </div>
           </div>
@@ -49,7 +54,8 @@ class Portfolio extends Component {
                 <img src={project_p2} alt="Portfolio"></img>
               </div>
               <div className="file__side file__side--back file__side--back-1">
-                <a href="#" className="btn btn--dark btn--animated"><FaGithub /> </a>
+                <a href="https://jacksonmoji.tech/" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
+                <a href="https://github.com/jacksonmoji/portfolio" className="btn btn--dark btn--animated"><FaGithub /> </a>
               </div>
             </div>
           </div>
