@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import project_p1 from '../img/bantuweb-add-translation.png';
 import project_p2 from '../img/portfolio.png'
-import { FaPython, FaAngular,FaSass, FaJs,FaCss,FaReact, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaPython, FaAngular,FaSass, FaJs,FaCss3,FaReact, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 
 class Portfolio extends Component {
@@ -59,7 +59,7 @@ class Portfolio extends Component {
               This is a website to showcase my portfolio 
             </p>
             <p className="skills__big">
-              <FaJs /> <FaSass /> <FaReact /> <FaCss />
+              <FaJs /> <FaSass /> <FaReact /> <FaCss3 />
             </p>
           </div>
         </div>
