@@ -9,7 +9,7 @@ class Portfolio extends Component {
     super(props);
 
     this.portfolio = props.portfolio;
-    this.privateRepo =  this.handleClick.bind(this);
+    this.privateRepo =  this.privateRepo.bind(this);
   }
 
   privateRepo () {
