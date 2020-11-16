@@ -5,6 +5,12 @@ class Navigation extends Component {
     super(props);
 
     this.NavigationData = props.NavigationData;
+     // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick () {
+    alert('sdfsdkfsbdf');
   }
 
   render() {
@@ -17,7 +23,7 @@ class Navigation extends Component {
         <div className="navigation__background">&nbsp;</div>
         <nav className="navigation__nav">
           <ul className="navigation__list">
-            <li className="navigation__item"><a href="#about" className="navigation__link">About</a></li>
+            <li className="navigation__item"><a href="#about" className="navigation__link" onClick={this.handleClick}>About</a></li>
             <li className="navigation__item"><a href="#education" className="navigation__link">Education</a></li>
             <li className="navigation__item"><a href="#experience" className="navigation__link">Experience</a></li>
             <li className="navigation__item"><a href="#tools" className="navigation__link">Tools</a></li>
