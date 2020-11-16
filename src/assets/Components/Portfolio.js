@@ -63,7 +63,7 @@ class Portfolio extends Component {
           <div className="col-2-of-4">
           <h3 className="heading-tertiary u-margin-bottom-small">My Portfolio Site</h3>    
             <p className="paragraph"> 
-              This is a website to showcase my portfolio 
+            This is a project to demonstrate my frontend design skillset built to make a template for anyone who needs a design idea or needs a free portfolio template. The Web app is built using reactjs, sass, css, and containerised using docker.
             </p>
             <p className="skills__big">
               <FaJs /> <FaSass /> <FaReact /> <FaCss3 />
