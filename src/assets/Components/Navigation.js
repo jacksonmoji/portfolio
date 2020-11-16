@@ -10,7 +10,7 @@ class Navigation extends Component {
   }
 
   handleClick () {
-    alert('sdfsdkfsbdf');
+    document.getElementById('navi-toggle').checked = false;
   }
 
   render() {
@@ -24,10 +24,10 @@ class Navigation extends Component {
         <nav className="navigation__nav">
           <ul className="navigation__list">
             <li className="navigation__item"><a href="#about" className="navigation__link" onClick={this.handleClick}>About</a></li>
-            <li className="navigation__item"><a href="#education" className="navigation__link">Education</a></li>
-            <li className="navigation__item"><a href="#experience" className="navigation__link">Experience</a></li>
-            <li className="navigation__item"><a href="#tools" className="navigation__link">Tools</a></li>
-            <li className="navigation__item"><a href="#projects" className="navigation__link">Projects</a></li>
+            <li className="navigation__item"><a href="#education" className="navigation__link" onClick={this.handleClick}>Education</a></li>
+            <li className="navigation__item"><a href="#experience" className="navigation__link" onClick={this.handleClick}>Experience</a></li>
+            <li className="navigation__item"><a href="#tools" className="navigation__link" onClick={this.handleClick}>Tools</a></li>
+            <li className="navigation__item"><a href="#projects" className="navigation__link" onClick={this.handleClick}>Projects</a></li>
           </ul>
         </nav>
       </div>
