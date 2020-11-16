@@ -17,6 +17,7 @@ class Portfolio extends Component {
   }
 
   render() {
+    
     return(
       <section className="section-projects" id="projects">
         <div className="u-center-text u-margin-bottom-big">
@@ -70,6 +71,7 @@ class Portfolio extends Component {
           </div>
         </div>
       </section>
+
     );
   }
 }
