@@ -5,7 +5,6 @@ class Navigation extends Component {
     super(props);
 
     this.NavigationData = props.NavigationData;
-     // This binding is necessary to make `this` work in the callback
     this.handleClick = this.handleClick.bind(this);
   }
 
