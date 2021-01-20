@@ -25,7 +25,7 @@ class Education extends Component {
 
           </div> */}
 
-          <div className="col-1-of-2">
+          <div className="col-1-of-1">
             <h2>UNIVERSITY OF SUNDERLAND</h2>
             <h3 className="heading-tertiary u-margin-bottom-small"> BSc (Hons) COMPUTER SYSTEMS ENGINEERING </h3>  
             <p> 2:1 </p>    
