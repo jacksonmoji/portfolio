@@ -17,13 +17,13 @@ class Education extends Component {
           </h1>    
         </div>
         <div className="row">
-          <div className="col-1-of-2">
+          {/* <div className="col-1-of-2">
             <h2>UNIVERSITY OF CAPE TOWN</h2>
             <h3 className="heading-tertiary u-margin-bottom-small"> MSC COMPUTER SCIENCE </h3>  
             <p> - </p>    
             <p> Busy with Dissertation </p>          
 
-          </div>
+          </div> */}
 
           <div className="col-1-of-2">
             <h2>UNIVERSITY OF SUNDERLAND</h2>

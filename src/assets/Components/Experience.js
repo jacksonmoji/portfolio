@@ -16,7 +16,7 @@ class Experience extends Component {
           </h2>    
         </div>
         <div class="row timeline">
-          <div class="timeline__container timeline__container--left">
+          {/* <div class="timeline__container timeline__container--left">
             <div class="content">
               <h1>A24 GROUP</h1>
               <h2>SOFWARE ENGINEER</h2>
@@ -28,7 +28,7 @@ over-time to implement new and up to date technologies using Node.js, React.js,
 and MongoDB from PHP and relational databases ( MySQL, MSSQL ).
               </p>
             </div>
-          </div>
+          </div> */}
           <div class="timeline__container timeline__container--right">
             <div class="content">
               <h1>THOUGHT EXPRESS</h1>
