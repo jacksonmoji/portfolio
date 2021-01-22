@@ -25,7 +25,7 @@ class Navigation extends Component {
             <li className="navigation__item"><a href="#about" className="navigation__link" onClick={this.handleClick}>About</a></li>
             <li className="navigation__item"><a href="#education" className="navigation__link" onClick={this.handleClick}>Education</a></li>
             <li className="navigation__item"><a href="#experience" className="navigation__link" onClick={this.handleClick}>Experience</a></li>
-            <li className="navigation__item"><a href="#tools" className="navigation__link" onClick={this.handleClick}>Tools</a></li>
+            <li className="navigation__item"><a href="#tools" className="navigation__link" onClick={this.handleClick}>Skills</a></li>
             <li className="navigation__item"><a href="#projects" className="navigation__link" onClick={this.handleClick}>Projects</a></li>
           </ul>
         </nav>
