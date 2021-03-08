@@ -33,7 +33,7 @@ and MongoDB from PHP and relational databases ( MySQL, MSSQL ).
             <div class="content">
               <h1>THOUGHT EXPRESS</h1>
               <h2>SOFWARE ENGINEER | BUSINESS PROCESS ENGINEER</h2>
-              <h3>01/2019 - 07/2020</h3>
+              <h3>01/2019 - Current</h3> 
               <p className="paragraph">
                 Led data migration/conversion from client’s Oracle DBMS to Thought Express’s System.
                 Lead the business requirements analysis, design, development and quality assurance of technical/business solutions.
