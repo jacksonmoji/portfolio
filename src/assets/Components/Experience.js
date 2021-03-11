@@ -35,7 +35,7 @@ and MongoDB from PHP and relational databases ( MySQL, MSSQL ).
               <h2>SOFWARE ENGINEER | BUSINESS PROCESS ENGINEER</h2>
               <h3>01/2019 - Current</h3> 
               <p className="paragraph">
-                Led data migration/conversion from client’s Oracle DBMS to Thought Express’s System.
+                Lead data migration/conversion from client’s Oracle DBMS to Thought Express’s System.
                 Lead the business requirements analysis, design, development and quality assurance of technical/business solutions.
                 Reviewed and re-designed existing processes to provide faster and more effective solutions.
                 Engaged with clients in understanding the particular business needs/problems they needed to solve in relation to their business processes.
